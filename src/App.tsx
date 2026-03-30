@@ -7,6 +7,7 @@ const navLinks = [
   { name: 'How It Works', href: '#how-it-works' },
   { name: 'Impact', href: '#impact' },
   { name: 'Team', href: '#team' },
+  { name: 'Donate Us', href: '#donate' },
   { name: 'Support Us', href: '#support' },
 ];
 
@@ -130,6 +131,18 @@ export default function App() {
         <p className="max-w-3xl mx-auto text-lg text-center mb-10">Youth Climate Baithak is a sub-initiative of Aware2Act Youth (A2A Youth) — a youth-led, non-political grassroots organization from Pakistan working on health awareness, climate education, social issues dialogue, and youth empowerment. Our mission is to amplify unheard voices and make awareness accessible in underserved communities.</p>
         <div className="text-center">
           <a href="https://aware2-act-youth.vercel.app/" className="bg-white text-[#019DC6] px-8 py-3 rounded-full font-medium">Visit A2A Youth Website</a>
+        </div>
+      </Section>
+
+      <Section id="donate" className="bg-[#e6f7fc]">
+        <h2 className="text-4xl font-bold text-center mb-12">Donate Us</h2>
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-lg mb-8">Your contributions help us expand our climate literacy programs to more villages in Balochistan. Every donation directly supports the training of local youth and the distribution of climate guidebooks.</p>
+          <div className="bg-white p-8 rounded-2xl shadow-sm inline-block">
+            <p className="text-xl font-bold mb-4">To support our cause, please contact us at:</p>
+            <a href="mailto:aware2act.youth@gmail.com" className="text-2xl font-bold text-[#019DC6] hover:underline">aware2act.youth@gmail.com</a>
+            <p className="text-gray-500 mt-4">We will provide you with the details for your contribution.</p>
+          </div>
         </div>
       </Section>
 
