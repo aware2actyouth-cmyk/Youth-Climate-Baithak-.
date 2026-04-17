@@ -27,7 +27,7 @@ export default function App() {
           <div className="flex justify-between items-center h-20">
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900 font-serif">Youth Climate Baithak</span>
-              <a href="https://aware2-act-youth.vercel.app/" className="text-xs text-[#019DC6] hover:underline">An initiative by Aware2Act Youth</a>
+              <a href="https://a2ayouth.vercel.app/" className="text-xs text-[#019DC6] hover:underline">An initiative by Aware2Act Youth</a>
             </div>
             <div className="hidden md:flex space-x-8">
               {navLinks.map(link => (
@@ -130,7 +130,7 @@ export default function App() {
         <h2 className="text-4xl font-bold text-center mb-6">About Aware2Act Youth</h2>
         <p className="max-w-3xl mx-auto text-lg text-center mb-10">Youth Climate Baithak is a sub-initiative of Aware2Act Youth (A2A Youth) — a youth-led, non-political grassroots organization from Pakistan working on health awareness, climate education, social issues dialogue, and youth empowerment. Our mission is to amplify unheard voices and make awareness accessible in underserved communities.</p>
         <div className="text-center">
-          <a href="https://aware2-act-youth.vercel.app/" className="bg-white text-[#019DC6] px-8 py-3 rounded-full font-medium">Visit A2A Youth Website</a>
+          <a href="https://a2ayouth.vercel.app/" className="bg-white text-[#019DC6] px-8 py-3 rounded-full font-medium">Visit A2A Youth Website</a>
         </div>
       </Section>
 
